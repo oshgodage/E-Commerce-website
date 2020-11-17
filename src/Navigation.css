@@ -1,0 +1,35 @@
+
+  
+  .navigation {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 10vh;
+      text-decoration: none;
+  }
+
+  .nav-link {
+      display: inline;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      text-decoration: none
+  }
+
+ 
+  .Link {
+    display: block;
+    padding: 8px;
+    text-decoration: none
+  }
+
+  li {
+      display: inline;
+      padding: .1rem;
+      text-decoration: none;
+      list-style: none;
+  }
+
+  

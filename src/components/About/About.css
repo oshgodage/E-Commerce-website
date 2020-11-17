@@ -1,0 +1,75 @@
+.container-about {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-about h7,h8,h10{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .1;
+    color: #333;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem;
+    text-decoration: none;
+    line-height: 2.2rem;
+}
+.container-about p {
+    color: #333;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.container-about h11,h9 {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: #333;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem;
+    margin-right: 3rem;
+}
+
+.back_image-about2
+{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.back_image-about1
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 20rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 820px) {
+    .container-about h8,h11,h9{
+      width: 100%;
+      display: block;
+      padding-right: 7rem;
+      
+    }
+    .container-about h7, h10 {
+        display: block;
+        width: 100%;
+        padding-right: 10rem;
+        
+    }
+    .back_image-about2, .back_image-about1 {
+        margin:2rem auto;
+        display: block;
+    }
+  }
+ 

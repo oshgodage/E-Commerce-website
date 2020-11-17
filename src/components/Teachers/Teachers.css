@@ -1,0 +1,139 @@
+.teachers-container {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.teachers-container h6{
+    font-size: 2rem;
+    color: #444;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem;
+    line-height: 2.2rem;
+}
+
+.teachers-container p1 {
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.back_image3 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-left: 7rem;
+    padding-right: 40rem;
+    padding-top: 2rem;
+    border-radius: 20rem;
+}
+
+.back_image4 {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-left: 40rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    border-radius: 20rem;   
+}
+.back-image5 {
+    width: 30%;
+    height: 30%;
+    align-items: center;
+}
+
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+  }
+  
+
+  @media screen and (max-width: 820px) {
+    .column , .teachers-container{
+      width: 100%;
+      display: block;
+    }
+    .teachers-container p1
+    {
+      font-size: 1rem;
+      
+    }
+    .card   {
+      width: 100%;
+      display: block;
+      overflow: auto;
+    }
+    .row  {
+      padding-right: 13rem;
+      width: 100%;
+      display: block;
+      overflow: auto; 
+    }
+    h6 {
+      width: 100%;
+      display: block;
+      overflow: auto;
+      padding-right: 12rem;
+    }
+  }
+ 
+  .card {
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .teachers-container2 {
+    padding: 0 16px;
+  }  
+  .teachers-container2::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button-teachers {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-left: .1rem;
+   
+  }
+  
+  .button-teachers:hover {
+    background-color: #555;
+  }
+
+  .back-image5 {
+      margin-left: 5rem;
+  }
+  

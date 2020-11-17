@@ -1,0 +1,81 @@
+.container-classes {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-classe h4, h5 {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #333;
+    font-family: 'Catamaran' , sans-serif;
+    margin-left: 7rem
+}
+
+.container-classe p {
+    color: #444;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    
+}
+
+.back_image1 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-left: 7rem;
+    padding-right: 40rem;
+    padding-top: 2rem;
+    border-radius: 20rem;  
+}
+
+.back_image2 {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-left: 40rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    border-radius: 20rem;   
+}
+
+.container-classe h5{
+    margin-left: 27rem;
+    font-style: italic;
+}
+
+.href {
+    padding-left: 7rem;
+    text-decoration: none;
+}
+
+.href:hover {
+    color: #333;
+}
+
+
+@media screen and (max-width:
+970px){
+    .container-classe h5 {
+        margin-left: 2rem;
+    } 
+    .container-classe h4 {
+        margin-left: 2rem; 
+    }
+    .back_image1 {
+        margin:0 auto;
+        display: block;
+    }
+    .back_image2 {
+        margin:0 auto;
+        display: block;
+    }
+}
